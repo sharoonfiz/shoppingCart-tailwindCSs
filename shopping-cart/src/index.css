@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cart-btn{
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.cart-btn:hover{
+    background-color: rgb(97, 245, 196) !important;
+}
+
+.search-bar{
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+}
+
+.cart-card{
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px  10px 15px rgba(70,70,70,0.15),
+    inset -10px -10px 15px rgba(255,255,255,0.5),
+    inset 10px  10px 15px rgba(70,70,70,0.15);
+}
+
+
+.logo{
+    box-shadow: -5px -5px 9px rgba(180, 255, 255, 0.749), 5px 5px 9px rgba(94,104,121,0.3);;
+    padding: 8px 19px;
+    background-color:  rgb(6, 227, 231) !important;
+    border-radius: 14rem;
+    margin-top: 0.4rem;
+    padding-bottom: 12px;
+    
+    
+} 
+.logo:active{
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+    
+}
+.head{
+    
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);;
+    padding: 8px 19px;
+}
+
+.cart{
+    background: rgb(221, 160, 221) !important;
+    box-shadow: -5px 5px 9px rgba(237, 205, 238, 0.953), 5px 5px 9px rgba(94,104,121,0.3);;
+}
+.cart:active{
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+    
+}  
+
+.badge{
+    background-color: pink !important;
+}
+
+    
